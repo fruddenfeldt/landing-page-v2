@@ -1,0 +1,80 @@
+* { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid red 2px;
+}
+
+.nav-container {
+    display: flex;
+    padding: 10px;
+    flex: 1;
+    gap: 10px;
+}
+
+#header-logo {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.menu {
+    flex-direction: row;
+    align-items: end;
+  }
+
+#big-box1 {
+    background-color: #1f2937;
+    padding: 5px;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+
+
+
+#hero-header {
+    
+}
+
+#header-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#big-box2 {
+    background-color: white;
+    padding: 16px;
+    display: flex;
+    gap: 8px;
+}
+
+#small-box {
+    color: peachpuff;
+    padding: 4px;
+    height: 100px;
+    flex: 1;  
+
+    display: flex;
+    border-radius: 10px;
+}
+
+#top-menu {
+   
+    gap: 20px;
+
+  
+}
+
+#top-header {
+    margin-bottom: 10px;
+}
+
+#CTA {
+    background-color: white;
+    padding: 16px;
+    display: flex;
+    gap: 8px;
+}
