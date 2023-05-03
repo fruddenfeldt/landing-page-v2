@@ -1,6 +1,6 @@
 * { 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: solid red 2px;
+    border: solid red 1px; 
 }
 
 .nav-container {
@@ -25,11 +25,17 @@
 #big-box1 {
     background-color: #1f2937;
     padding: 5px;
-    height: 200px;
+    height: 300px;
     color: white;
     display: flex;
     flex: 1;
     flex-direction: column;
+  }
+
+  button {
+    width: 70px;
+    background-color: #3882F6;
+    color: #F9FAF8
   }
 
 
