@@ -5,7 +5,7 @@
 
 .nav-container {
     display: flex;
-    padding: 10px;
+    padding: 5px;
     flex: 1;
     gap: 10px;
 }
@@ -22,23 +22,64 @@
     align-items: end;
   }
 
+  nav {
+    background-color: #1f2937;
+    color: white;
+  }
+
 #big-box1 {
     background-color: #1f2937;
     padding: 5px;
-    height: 300px;
+    height: 30%;
     color: white;
+    display: flex;
+
+  }
+
+  #hero-main {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+  }
+
+  #hero-2nd {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+  #top-left-block {
+    border: white;
+    width: 50%;
+    margin-left: 10%;
+    direction: flex;
+    flex-direction: column;
     display: flex;
     flex: 1;
     flex-direction: column;
   }
 
+  #img-placeholder {
+    background-color: grey;
+    display: flex;
+    flex: 1;
+    margin: 30px;
+
+  }
+
   button {
     width: 70px;
     background-color: #3882F6;
-    color: #F9FAF8
+    color: #F9FAF8;
+    border-radius: 5px;
+    font-weight: bolder;
   }
 
-
+#quote-box {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-weight: ligher;
+    font-size: 36px;
+}
 
 #hero-header {
     
@@ -54,6 +95,7 @@
     background-color: white;
     padding: 16px;
     display: flex;
+    flex: 1;
     gap: 8px;
 }
 
