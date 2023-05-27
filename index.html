@@ -33,7 +33,7 @@
                         <p id="hero-2nd">Trusted recipes that never disappoint.</p>
                     </div>
                     
-                    <div class="top-left-block-content"><button>Sign up</button></div>
+                    <div class="top-left-block-content"><button class="button">Sign up</button></div>
             
                 </div>
 
@@ -94,5 +94,24 @@
 <div class="footer">   
     <p class="footer-text">All rights reserved.</p>
 </div>
+
+<script>
+
+    const button = document.querySelector('button')
+    const images = document.querySelectorAll('img')
+    const mainImage = document.querySelector('#img-placeholder')
+
+
+    // images.forEach(images => images.addEventListener('click') {console.log("hi")})
+
+    button.addEventListener('click', () => {console.log("click")})
+
+    images.forEach(images => images.addEventListener('click', () => {console.log("click!")}))
+
+    mainImage.addEventListener('click', () => {console.log("clicked main image")})
+
+
+</script>
+
 </body>
 </html>
